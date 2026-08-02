@@ -1,9 +1,30 @@
 aid: ylookup
 name: Ylookup
-description: 'Ylookup is a company surfaced as a portfolio company of eqt-ventures and added to the API
-  Evangelist network as a stub for enrichment. Sector: fintech. This profile is a lead awaiting the enrichment
-  pipeline.'
+description: >-
+  Ylookup is a London-based fintech (founded 2025, EQT Ventures-backed) building an
+  agentic workflow engine for fund administration, corporate services, tax, audit, and
+  deal advisory firms. Its platform embeds trusted AI agents into existing tools (Excel,
+  PDFs, Investran, Paxus) as a centralized processing layer — no data migration required —
+  with specialized agents for extracting data from financial documents (LPAs, debt
+  agreements, KYC/AML and tax forms), real-time reconciliation across spreadsheets and
+  sources, financial analysis, and four-eye review. The company reports an average 76%
+  time saved across live processes such as fund-accounting migration, client onboarding,
+  financial-statement preparation, and K-1 data extraction. Ylookup publishes no public
+  developer API, documentation, or SDKs at this time; this profile captures its identity
+  and published security/compliance posture.
 url: https://raw.githubusercontent.com/api-evangelist/ylookup/refs/heads/main/apis.yml
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://framerusercontent.com/assets/qClolBnF5Ha6vdA2x8MJJed8c.png
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
@@ -12,10 +33,17 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
 - Fintech
+- Artificial Intelligence
+- AI Agents
+- Fund Administration
+- Corporate Services
+- Financial Services
+- Workflow Automation
+- Tax and Audit
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -25,3 +53,26 @@ maintainers:
 common:
 - type: Website
   url: https://www.ylookup.ai
+- type: Security
+  url: https://www.ylookup.ai/security
+- type: TrustCenter
+  url: https://www.ylookup.ai/security
+- type: Compliance
+  url: https://www.ylookup.ai/security
+- type: PrivacyPolicy
+  url: https://www.ylookup.ai/privacy
+- type: TermsOfService
+  url: https://www.ylookup.ai/terms-of-service
+- type: Support
+  url: https://www.ylookup.ai/contact
+- type: LinkedIn
+  url: https://www.linkedin.com/company/ylookup
+- type: DomainSecurity
+  url: security/ylookup-domain-security.yml
+- type: Conformance
+  url: conformance/ylookup-conformance.yml
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 2
+  pass: local-v1

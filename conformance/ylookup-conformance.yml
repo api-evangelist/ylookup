@@ -1,0 +1,17 @@
+generated: '2026-07-21'
+method: searched
+source: https://www.ylookup.ai/security
+note: >-
+  Ylookup publishes no public API surface (no OpenAPI, docs, or SDKs). Standards
+  below reflect the organizational security/compliance posture published on the
+  /security page, not API-level protocol conformance.
+standards:
+- id: soc2-type1
+  conforms: true
+  evidence: "SOC 2 Type 1 — independent audit of security controls; Type 2 attestation in progress (ylookup.ai/security)"
+- id: iso-27001
+  conforms: true
+  evidence: "Information security management aligned to ISO/IEC 27001 (ylookup.ai/security)"
+- id: gdpr
+  conforms: true
+  evidence: "Compliant with EU data protection requirements (ylookup.ai/security)"

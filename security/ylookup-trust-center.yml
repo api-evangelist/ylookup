@@ -1,0 +1,15 @@
+generated: '2026-07-21'
+method: searched
+source: https://www.ylookup.ai/security
+url: https://www.ylookup.ai/security
+certifications:
+- SOC 2 Type 1
+- ISO 27001
+- GDPR
+notes: >-
+  SOC 2 Type 2 attestation reported in progress. Reports and certificates
+  available under NDA on request. No public vulnerability-disclosure program,
+  security.txt, or bug bounty found (probed 2026-07-21).
+evidence:
+- source: https://www.ylookup.ai/security
+  keywords: [soc 2 type 1, iso 27001, gdpr, security controls]
